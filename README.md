@@ -1,13 +1,10 @@
-<div align="center">
+🛍️ Mall Customer Segmentation — Unsupervised Learning PR 1
 
-🛍️ Mall Customer Segmentation
-🚀 Unsupervised Learning • Customer Analytics • Clustering
+<p align="center">
 
-<p> <b>K-Means</b> &nbsp;•&nbsp; <b>Hierarchical Clustering</b> &nbsp;•&nbsp; <b>DBSCAN</b> </p>
+Customer Segmentation using K-Means, Hierarchical Clustering & DBSCAN
 
-<p> <i>Discovering hidden customer segments through unsupervised learning</i> </p>
-
-</div>
+</p>
 
 <p align="center">
   <b>Red & White Skill Education — Unsupervised Learning Practical Report 1</b>
