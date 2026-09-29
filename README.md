@@ -1,4 +1,4 @@
-<div align="center">
+<img width="684" height="475" alt="image" src="https://github.com/user-attachments/assets/30554f2e-40c7-4dd0-b74b-d376ee103126" /><div align="center">
 
 # 🛍️ Mall Customer Segmentation
 
@@ -30,7 +30,8 @@
 
 <td width="52%" align="center">
 
-<img src="YOUR_PINTEREST_IMAGE_URL" width="100%" alt="Mall Customer Segmentation">
+<img src="<img width="684" height="475" alt="image" src="https://github.com/user-attachments/assets/b68c33fb-2f29-4b37-ba94-e7478039fed0" />
+" width="100%" alt="Mall Customer Segmentation">
 
 </td>
 
