@@ -1,37 +1,97 @@
-# 🛍️ Mall Customer Segmentation — Unsupervised Learning PR 1
+<div align="center">
 
-<p align="center">
+# 🛍️ Mall Customer Segmentation
 
-## Customer Segmentation using K-Means, Hierarchical Clustering & DBSCAN
+### 🔍 Unsupervised Learning • Customer Analytics • Clustering
 
+<p>
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Seaborn-Visualization-4C72B0?style=for-the-badge"/>
 </p>
 
-<p align="center">
-  <b>Red & White Skill Education — Unsupervised Learning Practical Report 1</b>
+<p>
+  <img src="https://img.shields.io/badge/K--Means-Clustering-00A8E8?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Hierarchical-Clustering-8E44AD?style=flat-square"/>
+  <img src="https://img.shields.io/badge/DBSCAN-Density%20Based-27AE60?style=flat-square"/>
 </p>
+
+<p>
+  <i>Discovering hidden customer segments through unsupervised learning</i>
+</p>
+
+</div>
 
 ---
 
-## 📌 Project Overview
+<table>
+<tr>
 
-This project performs **Mall Customer Segmentation** using three unsupervised learning algorithms:
+<td width="52%" align="center">
 
-* 🔵 **K-Means Clustering**
-* 🌳 **Agglomerative Hierarchical Clustering**
-* 🟣 **DBSCAN**
+<img src="YOUR_PINTEREST_IMAGE_URL" width="100%" alt="Mall Customer Segmentation">
 
-The objective is to identify meaningful customer groups based on their **Age, Annual Income, and Spending Score**, and compare different clustering techniques using visualisations and clustering evaluation metrics.
+</td>
 
-The primary clustering analysis uses:
+<td width="48%" valign="middle">
 
-* `Annual_Income`
-* `Spending_Score`
+## 🎯 Project in One View
 
-These two features provide clear visual separation between customer segments and make the resulting clusters easier to interpret from a business perspective.
+This project uses **unsupervised machine learning** to discover meaningful customer segments from mall customer data.
+
+Customers are analysed mainly using:
+
+**Annual Income × Spending Score**
+
+Three clustering algorithms are applied and compared to understand how different unsupervised learning approaches identify customer groups.
+
+### 🤖 Algorithms
+
+🔵 **K-Means Clustering**
+🌳 **Agglomerative Hierarchical Clustering**
+🟣 **DBSCAN**
+
+### 📊 Dataset
+
+**200 Customers • 5 Original Features**
+
+### 📈 Evaluation
+
+**Silhouette Score**
+**Davies-Bouldin Index**
+**Calinski-Harabasz Index**
+
+</td>
+
+</tr>
+</table>
 
 ---
 
-## 🎯 Objectives
+<div align="center">
+
+### 🔄 Data → EDA → Scaling → Clustering → Evaluation → Business Insights
+
+</div>
+
+---
+
+# 📌 Project Overview
+
+Mall Customer Segmentation is an **unsupervised learning project** designed to identify groups of customers with similar characteristics and spending behaviour.
+
+The project explores three different clustering approaches:
+
+* 🔵 K-Means Clustering
+* 🌳 Agglomerative Hierarchical Clustering
+* 🟣 DBSCAN
+
+The primary clustering analysis uses **Annual Income** and **Spending Score** because these features provide clear visual separation between customer segments and make the results easier to interpret from a business perspective.
+
+---
+
+# 🎯 Objectives
 
 * Load and explore the Mall Customer Segmentation dataset.
 * Perform data preprocessing and exploratory data analysis.
@@ -42,94 +102,85 @@ These two features provide clear visual separation between customer segments and
 
   * Elbow Method
   * Silhouette Score
-* Perform K-Means clustering and analyse customer segments.
-* Apply Agglomerative Hierarchical Clustering using Ward linkage.
-* Use a dendrogram to understand hierarchical grouping.
+* Perform K-Means clustering.
+* Analyse customer cluster profiles.
+* Apply Agglomerative Hierarchical Clustering.
+* Visualise hierarchical relationships using a dendrogram.
 * Tune DBSCAN using a 4-NN distance plot and parameter grid search.
-* Compare K-Means, Hierarchical Clustering, and DBSCAN.
+* Compare all three clustering algorithms.
 * Evaluate clustering quality using multiple metrics.
 * Derive business insights and possible marketing strategies.
 
 ---
 
-## 📊 Dataset
+# 📊 Dataset
 
-**Dataset:** Mall Customer Segmentation Dataset
+### Mall Customer Segmentation Dataset
 
 **Source:** Kaggle
 
-🔗 [Mall Customer Segmentation Dataset](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
+🔗 [View Dataset on Kaggle](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
 
-### Dataset Information
+### Dataset Statistics
 
-* **Rows:** 200
-* **Columns:** 5
-* **Missing Values:** 0
-* **Duplicate Rows:** 0
+| Property            |   Value |
+| ------------------- | ------: |
+| 👥 Rows             | **200** |
+| 📊 Original Columns |   **5** |
+| ❌ Missing Values    |   **0** |
+| 🔁 Duplicate Rows   |   **0** |
 
 ### Original Features
 
-| Feature                | Description                |
-| ---------------------- | -------------------------- |
-| CustomerID             | Unique customer identifier |
-| Gender                 | Customer gender            |
-| Age                    | Customer age               |
-| Annual Income (k$)     | Annual income              |
-| Spending Score (1-100) | Customer spending score    |
-
-### Preprocessing
-
-The following changes were performed:
-
-* `Annual Income (k$)` → `Annual_Income`
-* `Spending Score (1-100)` → `Spending_Score`
-* `CustomerID` was removed because it is only an identifier.
-* `Gender` was encoded using `LabelEncoder`.
-* `Age`, `Annual_Income`, and `Spending_Score` were scaled using `StandardScaler`.
+| Feature                  | Description                |
+| ------------------------ | -------------------------- |
+| `CustomerID`             | Unique customer identifier |
+| `Gender`                 | Customer gender            |
+| `Age`                    | Customer age               |
+| `Annual Income (k$)`     | Annual income              |
+| `Spending Score (1-100)` | Customer spending score    |
 
 ---
 
-## 🤖 Algorithms Used
+# ⚙️ Data Preprocessing
 
-### 1. K-Means Clustering
+The following preprocessing steps were performed:
 
-K-Means is a centroid-based clustering algorithm that divides customers into a predefined number of clusters.
+### Column Renaming
 
-The optimal cluster count was investigated using:
+```text
+Annual Income (k$)       → Annual_Income
+Spending Score (1-100)   → Spending_Score
+```
 
-* Elbow Method
-* Silhouette Score
+### Identifier Removal
 
-The final model uses the selected number of clusters based on the clustering analysis.
+`CustomerID` was removed because it is an identifier and does not provide useful information for clustering.
 
----
+### Gender Encoding
 
-### 2. Agglomerative Hierarchical Clustering
+`Gender` was converted into numerical values using `LabelEncoder`.
 
-Agglomerative Hierarchical Clustering starts with individual observations and progressively merges similar observations into larger groups.
+### Feature Scaling
 
-**Linkage method:** Ward
+`StandardScaler` was applied to:
 
-A dendrogram was used to visualise the hierarchical merging process and determine an appropriate clustering level.
+* `Age`
+* `Annual_Income`
+* `Spending_Score`
 
----
+The primary clustering analysis uses:
 
-### 3. DBSCAN
+```text
+Annual_Income
+Spending_Score
+```
 
-DBSCAN is a density-based clustering algorithm.
-
-It uses:
-
-* `eps` — neighbourhood distance
-* `min_samples` — minimum number of neighbouring points
-
-Unlike K-Means, DBSCAN does not require the number of clusters to be specified beforehand and can identify low-density observations as **noise (`-1`)**.
-
-A 4-NN distance plot and parameter grid search were used for parameter selection.
+Scaling is important because K-Means and DBSCAN use distance calculations and are sensitive to feature magnitude.
 
 ---
 
-## 📈 Exploratory Data Analysis
+# 🔍 Exploratory Data Analysis
 
 The project includes:
 
@@ -140,86 +191,220 @@ The project includes:
 * Pairplot
 * Correlation heatmap
 
-The EDA indicates that **Annual Income and Spending Score** provide useful separation for customer segmentation and are therefore used as the primary two-dimensional clustering space.
+The EDA helps understand the distributions and relationships between the customer features.
+
+### Primary Segmentation Features
+
+```text
+        Annual Income
+              ×
+       Spending Score
+```
+
+These two features provide useful visual separation for customer segmentation.
 
 ---
 
-## 📉 K-Means Analysis
+# 🤖 Machine Learning Approach
 
-### Elbow Method
+<table>
+<tr>
 
-The Elbow Method evaluates the inertia for different values of `k`.
+<td width="33%" align="center">
+
+## 🔵 K-Means
+
+**Centroid-Based**
+
+Groups customers around cluster centroids.
+
+**Used for:**
+
+* Elbow Method
+* Silhouette Score
+* Cluster profiling
+* Centroid visualisation
+
+</td>
+
+<td width="33%" align="center">
+
+## 🌳 Hierarchical
+
+**Agglomerative**
+
+Progressively merges similar customers.
+
+**Used for:**
+
+* Ward linkage
+* Dendrogram
+* Cluster comparison
+
+</td>
+
+<td width="33%" align="center">
+
+## 🟣 DBSCAN
+
+**Density-Based**
+
+Groups dense regions and detects noise.
+
+**Used for:**
+
+* 4-NN analysis
+* Parameter tuning
+* Noise detection
+
+</td>
+
+</tr>
+</table>
+
+---
+
+# 🔵 K-Means Clustering
+
+## Elbow Method
+
+The Elbow Method evaluates the **inertia** for different values of `k`.
+
+The elbow point represents a balance between reducing within-cluster variation and avoiding unnecessary clusters.
 
 ![Elbow Method](screenshots/elbow_method.png)
 
-### Silhouette Score
+---
 
-The Silhouette Score was evaluated for `k = 2` to `k = 10`.
+## Silhouette Score
 
-The final K-Means cluster count was selected using the clustering analysis and interpretability of the resulting customer segments.
+The Silhouette Score was evaluated for:
 
-### K-Means Customer Segmentation
+```text
+k = 2 → 10
+```
 
-The final K-Means model was visualised using:
+A higher Silhouette Score generally indicates better-separated and more compact clusters.
+
+The Elbow Method and Silhouette Score were considered together when selecting the final K-Means cluster count.
+
+---
+
+## Customer Segmentation
+
+The final K-Means model visualises customers using:
 
 * Annual Income
 * Spending Score
 * Cluster labels
 * Cluster centroids
 
+The resulting clusters are profiled using average:
+
+* Age
+* Annual Income
+* Spending Score
+
 ---
 
-## 🌳 Hierarchical Clustering
+# 🌳 Agglomerative Hierarchical Clustering
 
-### Dendrogram
+Hierarchical clustering was performed using:
 
-Ward-linkage hierarchical clustering was visualised using a dendrogram.
+```text
+Linkage = Ward
+```
+
+Ward linkage merges clusters while minimising the increase in within-cluster variance.
+
+## Dendrogram
 
 ![Dendrogram](screenshots/dendrogram.png)
 
-The dendrogram helps understand how customers are progressively merged into larger groups.
+The dendrogram helps understand how customers are progressively merged into larger groups and supports the selection of an appropriate clustering level.
 
 ---
 
-## 🟣 DBSCAN Analysis
+# 🟣 DBSCAN Clustering
 
-### 4-NN Distance Plot
+DBSCAN is a density-based clustering algorithm.
+
+It uses two important parameters:
+
+| Parameter     | Meaning                                        |
+| ------------- | ---------------------------------------------- |
+| `eps`         | Maximum neighbourhood distance                 |
+| `min_samples` | Minimum number of neighbouring points required |
+
+DBSCAN also provides the ability to identify low-density observations as **noise (`-1`)**.
+
+---
+
+## 4-NN Distance Plot
 
 A 4-nearest-neighbour distance plot was used to estimate a suitable `eps` value.
 
 ![DBSCAN k-Distance Plot](screenshots/dbscan_k_distance.png)
 
-A grid search was then performed over multiple combinations of:
+A parameter grid search was then performed using different combinations of:
 
-* `eps`
-* `min_samples`
+```text
+eps
+min_samples
+```
 
-The final DBSCAN model identifies dense customer groups and can classify low-density observations as noise.
+The selected parameters were evaluated based on cluster quality and noise points.
 
 ---
 
-## 📊 Algorithm Comparison
+# 📊 Algorithm Comparison
 
-The three clustering algorithms were compared using the same feature space:
+All three algorithms were compared using the same primary feature space:
 
-* Annual Income
-* Spending Score
+```text
+Annual Income × Spending Score
+```
 
 ![Algorithm Comparison](screenshots/algorithm_comparison.png)
 
-### Comparison
+---
 
-| Algorithm    | Main Approach                       | Requires Number of Clusters? | Handles Noise? |
-| ------------ | ----------------------------------- | ---------------------------: | -------------: |
-| K-Means      | Centroid-based                      |                          Yes |             No |
-| Hierarchical | Connectivity / hierarchical merging |                          Yes |             No |
-| DBSCAN       | Density-based                       |                           No |            Yes |
+## Comparison Table
+
+| Algorithm       | Approach               | Requires `k`? | Noise Detection | Cluster Shape           |
+| --------------- | ---------------------- | :-----------: | :-------------: | ----------------------- |
+| 🔵 K-Means      | Centroid-based         |       ✅       |        ❌        | Approximately spherical |
+| 🌳 Hierarchical | Connectivity / merging |       ✅       |        ❌        | Depends on linkage      |
+| 🟣 DBSCAN       | Density-based          |       ❌       |        ✅        | Arbitrary shapes        |
+
+### Key Differences
+
+**K-Means**
+
+* Requires the number of clusters.
+* Assigns every customer to a cluster.
+* Uses cluster centroids.
+* Easy to interpret for customer segmentation.
+
+**Hierarchical Clustering**
+
+* Builds a hierarchy of customer groups.
+* Provides a dendrogram.
+* Useful for understanding how clusters merge.
+* Customer assignments can differ near cluster boundaries.
+
+**DBSCAN**
+
+* Does not require the number of clusters beforehand.
+* Groups customers according to density.
+* Can identify noise.
+* Sensitive to `eps` and `min_samples`.
 
 ---
 
-## 📏 Evaluation Metrics
+# 📏 Clustering Evaluation
 
-The clustering models were evaluated using:
+The project evaluates all three algorithms using multiple internal clustering metrics.
 
 ### Silhouette Score
 
@@ -233,162 +418,250 @@ Lower values generally indicate better cluster separation and compactness.
 
 Higher values generally indicate better-defined clustering based on between-cluster and within-cluster dispersion.
 
-For DBSCAN, noise points labelled `-1` are excluded from the metric calculations.
+### DBSCAN Metric Handling
+
+For DBSCAN, observations labelled as noise (`-1`) are excluded from the metric calculations.
 
 ---
 
-## 💼 Business Insights
+# 💼 Business Insights
 
-The K-Means customer segments are interpreted using the average:
+The customer segments are interpreted using:
 
 * Age
 * Annual Income
 * Spending Score
 
-Possible customer segment categories include:
+The exact interpretation is based on the actual cluster averages produced by the notebook.
 
-### 💎 High Income + High Spending
+---
+
+## 💎 High Income + High Spending
 
 Customers with strong purchasing power and high spending behaviour.
 
-**Possible strategy:**
+**Possible strategies:**
 
 * Premium products
 * Loyalty rewards
 * Personalised offers
 
-### 💰 High Income + Low Spending
+---
 
-Customers with high purchasing power but relatively low spending.
+## 💰 High Income + Low Spending
 
-**Possible strategy:**
+Customers with high purchasing power but relatively low spending behaviour.
+
+**Possible strategies:**
 
 * Personalised recommendations
 * Premium promotions
 * Targeted campaigns
 
-### 🛍️ Low Income + High Spending
+---
+
+## 🛍️ Low Income + High Spending
 
 Customers showing relatively high spending despite lower income.
 
-**Possible strategy:**
+**Possible strategies:**
 
 * Discounts
 * Budget-friendly offers
 * Promotional campaigns
 
-### 🏷️ Low Income + Low Spending
+---
+
+## 🏷️ Low Income + Low Spending
 
 Customers with lower income and lower spending behaviour.
 
-**Possible strategy:**
+**Possible strategies:**
 
 * Value products
-* Budget-focused offers
-* Entry-level promotions
+* Budget-focused promotions
+* Entry-level offers
 
-### ⚖️ Medium Income + Medium Spending
+---
+
+## ⚖️ Medium Income + Medium Spending
 
 Customers with balanced income and spending behaviour.
 
-**Possible strategy:**
+**Possible strategies:**
 
 * Loyalty programmes
 * Regular promotions
 * Personalised recommendations
 
-> Segment interpretation is based on the actual cluster averages produced by the notebook rather than assuming that cluster numbers have a fixed business meaning.
+> **Note:** Cluster numbers are not assumed to represent a fixed customer category. Segment names are interpreted from the actual cluster averages.
 
 ---
 
-## 🛠️ Technologies & Libraries
+# 📈 Project Workflow
 
-### Programming Language
+```text
+                    📂 Dataset
+                        │
+                        ▼
+                  🔍 Data Analysis
+                        │
+                        ▼
+                 ⚙️ Preprocessing
+                        │
+                        ▼
+                  📏 Feature Scaling
+                        │
+              ┌─────────┼─────────┐
+              ▼         ▼         ▼
+          🔵 K-Means   🌳 Hier.   🟣 DBSCAN
+              │         │         │
+              └─────────┼─────────┘
+                        ▼
+                 📊 Comparison
+                        │
+                        ▼
+                  📏 Evaluation
+                        │
+                        ▼
+                  💼 Business
+                    Insights
+```
 
-* Python
+---
 
-### Data Analysis
+# 📊 Project Highlights
 
-* Pandas
-* NumPy
+| Category            | Implementation                        |
+| ------------------- | ------------------------------------- |
+| 📂 Dataset          | Mall Customer Segmentation            |
+| 👥 Customers        | 200                                   |
+| 🔍 EDA              | Histograms, KDE, Pairplot, Heatmap    |
+| ⚙️ Preprocessing    | Encoding + Scaling                    |
+| 🔵 Clustering       | K-Means                               |
+| 🌳 Clustering       | Hierarchical                          |
+| 🟣 Clustering       | DBSCAN                                |
+| 📉 Parameter Tuning | Elbow + Silhouette + 4-NN             |
+| 📏 Evaluation       | 3 Clustering Metrics                  |
+| 💼 Output           | Customer Segments + Business Insights |
 
-### Data Visualisation
+---
 
-* Matplotlib
-* Seaborn
+# 🛠️ Tech Stack
 
-### Machine Learning
+<p align="center">
 
-* Scikit-learn
+<img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Seaborn-Visualization-4C72B0?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/SciPy-Scientific%20Computing-8CAAE6?style=for-the-badge"/>
 
-### Hierarchical Clustering
-
-* SciPy
+</p>
 
 ### Development Environment
 
 * Jupyter Notebook
 * VS Code
+* Git & GitHub
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```text
 Unsupervised-Learning-PR1/
 │
-├── Mall_Customers.csv
-├── UL_PR1.ipynb
-├── UL_PR1.html
-├── requirements.txt
+├── 📄 Mall_Customers.csv
+├── 📓 UL_PR1.ipynb
+├── 🌐 UL_PR1.html
+├── 📦 requirements.txt
 │
-└── screenshots/
-    ├── elbow_method.png
-    ├── dendrogram.png
-    ├── dbscan_k_distance.png
-    └── algorithm_comparison.png
+└── 📁 screenshots/
+    ├── 🖼️ elbow_method.png
+    ├── 🖼️ dendrogram.png
+    ├── 🖼️ dbscan_k_distance.png
+    └── 🖼️ algorithm_comparison.png
 ```
 
 ---
 
-## ▶️ How to Run
+# ▶️ How to Run
 
-### 1. Clone the repository
+### 1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/dhorajiyamisri/Unsupervised-Learning-PR1.git
 ```
 
-### 2. Open the project
+### 2️⃣ Open the project
 
 ```bash
 cd Unsupervised-Learning-PR1
 ```
 
-### 3. Install dependencies
+### 3️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Open the notebook
+### 4️⃣ Open the notebook
 
 ```bash
 jupyter notebook UL_PR1.ipynb
 ```
 
-Run all notebook cells from beginning to end.
+### 5️⃣ Run All Cells
+
+Run the notebook from beginning to end to reproduce the complete analysis.
 
 ---
 
-## 📋 Practical Report Coverage
+# 📸 Visual Gallery
 
-This project covers the complete PR workflow:
+### 🔵 K-Means — Elbow Method
+
+![Elbow Method](screenshots/elbow_method.png)
+
+### 🌳 Hierarchical — Dendrogram
+
+![Dendrogram](screenshots/dendrogram.png)
+
+### 🟣 DBSCAN — 4-NN Distance
+
+![DBSCAN k-Distance](screenshots/dbscan_k_distance.png)
+
+### 📊 Algorithm Comparison
+
+![Algorithm Comparison](screenshots/algorithm_comparison.png)
+
+---
+
+# 🎥 Project Demonstration
+
+<div align="center">
+
+## ▶️ Complete Project Walkthrough
+
+**EDA → Preprocessing → K-Means → Hierarchical → DBSCAN → Evaluation → Business Insights**
+
+</div>
+
+### 🎬 Video
+
+**Video link:** `Coming soon`
+
+---
+
+# 📋 Practical Report Coverage
 
 * ✅ Data Loading
 * ✅ Data Cleaning
 * ✅ Exploratory Data Analysis
-* ✅ Feature Encoding
+* ✅ Gender Encoding
 * ✅ Feature Scaling
 * ✅ Feature Selection
 * ✅ Elbow Method
@@ -396,7 +669,7 @@ This project covers the complete PR workflow:
 * ✅ K-Means Clustering
 * ✅ Cluster Centroids
 * ✅ Cluster Profiling
-* ✅ Dendrogram
+* ✅ Ward-Linkage Dendrogram
 * ✅ Agglomerative Hierarchical Clustering
 * ✅ 4-NN Distance Plot
 * ✅ DBSCAN Parameter Tuning
@@ -410,25 +683,36 @@ This project covers the complete PR workflow:
 
 ---
 
-## 🎥 Project Video
+# 🎓 Practical Report
 
-**Video demonstration:**
-`Video link will be added here.`
+**Red & White Skill Education**
 
-The demonstration covers the notebook workflow, clustering concepts, visualisations, evaluation metrics, and business insights.
+### Unsupervised Learning — Practical Report 1
 
----
-
-## 👩‍💻 Author
-
-**Misari Dhorajiya**
-
-GitHub: [@dhorajiyamisri](https://github.com/dhorajiyamisri)
+**Topic:** Mall Customer Segmentation
 
 ---
 
-## ⭐ Project Summary
+# 👩‍💻 Author
 
-This project demonstrates how unsupervised learning can be used for **customer segmentation**.
+<div align="center">
 
-By comparing K-Means, Agglomerative Hierarchical Clustering, and DBSCAN, the project shows how different clustering approaches can reveal customer groups from the same dataset and how those groups can be translated into practical business insights.
+## Misari Dhorajiyiya
+
+**Data Science / AI-ML Learner**
+
+📊 Data Analysis • 🤖 Machine Learning • 📈 Data Visualization
+
+[![GitHub](https://img.shields.io/badge/GitHub-dhorajiyamisri-181717?style=for-the-badge\&logo=github)](https://github.com/dhorajiyamisri)
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project useful, consider giving it a star!
+
+**Built with Python • Scikit-learn • Pandas • Seaborn • SciPy**
+
+</div>
