@@ -40,12 +40,7 @@ The resulting customer groups can help businesses understand different customer 
 <tr>
 
 <td width="50%" align="center">
-
-<img src="<img width="736" height="736" alt="image" src="https://github.com/user-attachments/assets/1c0bb2b9-a651-4643-bccd-20c9e3ec1ee7" />
-"
-     width="95%"
-     alt="Mall Customer Segmentation">
-
+<img src="<img width="736" height="736" alt="image" src="https://github.com/user-attachments/assets/46a08533-02dd-4526-a70d-bc605de91971" />" width="95%" alt="Mall Customer Segmentation">
 </td>
 
 <td width="50%" valign="middle">
