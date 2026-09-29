@@ -186,7 +186,7 @@ These two variables are particularly useful for customer segmentation because th
 
 ### Customer Feature Relationships
 
-<img src="./screenshots/pairplot.png" width="88%" alt="Customer Feature Pairplot"/>
+<img src="./screenshots/Customer_Feature_Pairplot.png" width="88%" alt="Customer Feature Pairplot"/>
 
 </div>
 
@@ -194,7 +194,7 @@ These two variables are particularly useful for customer segmentation because th
 
 ### Correlation Analysis
 
-<img src="./screenshots/correlation_heatmap.png" width="78%" alt="Correlation Heatmap"/>
+<img src="./screenshots/Correlation_Heatmap.png" width="78%" alt="Correlation Heatmap"/>
 
 </div>
 
