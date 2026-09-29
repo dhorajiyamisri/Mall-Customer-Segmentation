@@ -30,8 +30,7 @@
 
 <td width="52%" align="center">
 
-<img src="<img width="684" height="475" alt="image" src="https://github.com/user-attachments/assets/b68c33fb-2f29-4b37-ba94-e7478039fed0" />
-" width="100%" alt="Mall Customer Segmentation">
+<img src="https://in.pinterest.com/pin/1055953443906609318/" width="100%" alt="Mall Customer Segmentation">
 
 </td>
 
