@@ -25,14 +25,16 @@
 **Mall Customer Segmentation** is an unsupervised machine learning project designed to identify groups of customers with similar characteristics and spending behaviour.
 
 The project uses customer demographic and spending information to discover hidden patterns without a predefined target label.
+.
 
-### 🎯 Main Objective
+🎯 Main Objective
+
 <table>
 <tr>
 
 <td width="50%" align="center">
 
-<img src="<img https://i.pinimg.com/736x/cc/2a/cf/cc2acf922e61955044d706c497be8153.jpg />" width="95%" alt="Mall Customer Segmentation">
+<img src="<img width="736" height="736" alt="image" src="https://github.com/user-attachments/assets/205e38ba-7ad8-419d-a091-1ee08e83accb" />" width="95%" alt="Mall Customer Segmentation">
 
 </td>
 
@@ -68,7 +70,6 @@ age, annual income and spending behaviour.
 
 </tr>
 </table>
-
 ---
 
 # 🧩 Problem Statement
