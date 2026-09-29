@@ -1,8 +1,8 @@
-🛍️ Mall Customer Segmentation — Unsupervised Learning PR 1
+# 🛍️ Mall Customer Segmentation — Unsupervised Learning PR 1
 
 <p align="center">
 
-Customer Segmentation using K-Means, Hierarchical Clustering & DBSCAN
+## Customer Segmentation using K-Means, Hierarchical Clustering & DBSCAN
 
 </p>
 
