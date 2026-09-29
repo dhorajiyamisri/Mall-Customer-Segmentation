@@ -536,25 +536,34 @@ Clustering provides a structured way to explore hidden patterns within customer 
 
 ### Elbow Method
 
-<img src="./screenshots/elbow_method.png" width="82%" alt="Elbow Method"/>
+<img src="./screenshots/elbow_method.png"
+       width="90%"
+       alt="K-Means Elbow Method">
 
 <br><br>
 
 ### Hierarchical Dendrogram
 
-<img src="./screenshots/dendrogram.png" width="82%" alt="Dendrogram"/>
+<img src="./screenshots/dendrogram.png"
+       width="90%"
+       alt="Hierarchical Clustering Dendrogram">
 
 <br><br>
 
 ### DBSCAN K-Distance
 
-<img src="./screenshots/dbscan_k_distance.png" width="82%" alt="DBSCAN K-Distance"/>
+<img src="./screenshots/dbscan_k_distance.png"
+       width="90%"
+       alt="DBSCAN K-Distance Plot">
+
 
 <br><br>
 
 ### Algorithm Comparison
 
-<img src="./screenshots/algorithm_comparison.png" width="90%" alt="Algorithm Comparison"/>
+<img src="./screenshots/algorithm_comparison.png"
+       width="90%"
+       alt="Algorithm Comparison">
 
 </div>
 
