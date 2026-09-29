@@ -27,20 +27,13 @@
 The project uses customer demographic and spending information to discover hidden patterns without a predefined target label.
 
 ### 🎯 Main Objective
-
-The objective is to segment mall customers into meaningful groups using three clustering techniques:
-
-* 🔵 **K-Means Clustering**
-* 🌳 **Agglomerative Hierarchical Clustering**
-* ⚫ **DBSCAN**
-
-The resulting customer groups can help businesses understand different customer behaviours and support data-driven marketing and customer engagement strategies.
-
 <table>
 <tr>
 
 <td width="50%" align="center">
-<img src="<img width="736" height="736" alt="image" src="https://github.com/user-attachments/assets/46a08533-02dd-4526-a70d-bc605de91971" />" width="95%" alt="Mall Customer Segmentation">
+
+<img src="<img width="736" height="736" alt="image" src="https://github.com/user-attachments/assets/23fe59f2-96c1-42ee-8c7b-a840d1296c2c" />" width="95%" alt="Mall Customer Segmentation">
+
 </td>
 
 <td width="50%" valign="middle">
@@ -50,13 +43,10 @@ The resulting customer groups can help businesses understand different customer 
 <h3>Unsupervised Machine Learning Project</h3>
 
 <p>
-A customer segmentation project that uses
-unsupervised learning techniques to discover
-meaningful customer groups based on their
+A customer segmentation project that uses unsupervised learning
+techniques to discover meaningful customer groups based on
 age, annual income and spending behaviour.
 </p>
-
-<br>
 
 <p><b>🤖 Algorithms</b></p>
 
@@ -68,16 +58,11 @@ age, annual income and spending behaviour.
 
 <p><b>📊 Dataset</b></p>
 
-<p>
-200 Customers • 5 Features
-</p>
+<p>200 Customers • 5 Features</p>
 
 <p><b>🎯 Focus</b></p>
 
-<p>
-Customer Behaviour • Clustering •
-Data Analysis • Business Insights
-</p>
+<p>Customer Behaviour • Clustering • Data Analysis • Business Insights</p>
 
 </td>
 
