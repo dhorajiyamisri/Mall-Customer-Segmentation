@@ -27,14 +27,12 @@
 
 <table>
 <tr>
-
-<td width="52%" align="center">
-
-<img src="https://in.pinterest.com/pin/1055953443906609318/" width="100%" alt="Mall Customer Segmentation">
-
-</td>
-
-<td width="48%" valign="middle">
+<img
+  src="<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/83f232f1-ba33-465c-959e-dbc14f8b4ee7" />
+"
+  width="100%"
+  alt="Mall Customer Segmentation"
+>
 
 ## 🎯 Project in One View
 
