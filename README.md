@@ -3,8 +3,7 @@
 
 ### 🔍 Unsupervised Learning • Customer Analytics • Clustering
 </p>
-
-<p align="center"> <b>Red & White Skill Education — Unsupervised Learning Practical Report 1</b> </p>
+<b>Red & White Skill Education — Unsupervised Learning Practical Report 1</b> </p>
 <p>
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
