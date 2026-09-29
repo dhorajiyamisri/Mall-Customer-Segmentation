@@ -32,7 +32,7 @@ The project uses customer demographic and spending information to discover hidde
 
 <td width="50%" align="center">
 
-<img src="<img width="736" height="736" alt="image" src="https://github.com/user-attachments/assets/23fe59f2-96c1-42ee-8c7b-a840d1296c2c" />" width="95%" alt="Mall Customer Segmentation">
+<img src="<img https://i.pinimg.com/736x/cc/2a/cf/cc2acf922e61955044d706c497be8153.jpg />" width="95%" alt="Mall Customer Segmentation">
 
 </td>
 
