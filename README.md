@@ -36,6 +36,59 @@ The objective is to segment mall customers into meaningful groups using three cl
 
 The resulting customer groups can help businesses understand different customer behaviours and support data-driven marketing and customer engagement strategies.
 
+<table>
+<tr>
+
+<td width="50%" align="center">
+
+<img src="<img width="736" height="736" alt="image" src="https://github.com/user-attachments/assets/1c0bb2b9-a651-4643-bccd-20c9e3ec1ee7" />
+"
+     width="95%"
+     alt="Mall Customer Segmentation">
+
+</td>
+
+<td width="50%" valign="middle">
+
+<h1>🛍️ Mall Customer Segmentation</h1>
+
+<h3>Unsupervised Machine Learning Project</h3>
+
+<p>
+A customer segmentation project that uses
+unsupervised learning techniques to discover
+meaningful customer groups based on their
+age, annual income and spending behaviour.
+</p>
+
+<br>
+
+<p><b>🤖 Algorithms</b></p>
+
+<p>
+🔵 K-Means Clustering<br>
+🌳 Hierarchical Clustering<br>
+⚫ DBSCAN
+</p>
+
+<p><b>📊 Dataset</b></p>
+
+<p>
+200 Customers • 5 Features
+</p>
+
+<p><b>🎯 Focus</b></p>
+
+<p>
+Customer Behaviour • Clustering •
+Data Analysis • Business Insights
+</p>
+
+</td>
+
+</tr>
+</table>
+
 ---
 
 # 🧩 Problem Statement
